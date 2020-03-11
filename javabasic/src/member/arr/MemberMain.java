@@ -34,6 +34,14 @@ public class MemberMain {
 				action = new ListAction();
 				ms.process(action, sc);
 				break;
+			case "3":
+				action = new DeleteAction();
+				ms.process(action, sc);
+				break;
+			case "4":
+				action = new UpdateAction();
+				ms.process(action, sc);
+				break;
 			case "5":
 				isStop = true;
 				break;
