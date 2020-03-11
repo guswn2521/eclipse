@@ -40,7 +40,9 @@ public class DeleteAction implements Action{
 				else if(j > deleteIndex){
 					temp[j-1] = members[j];
 				}
-				temp[j] = members[j];
+				else {temp[j] = members[j];
+				}
+				
 			}
 		}
 		
