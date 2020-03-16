@@ -21,7 +21,7 @@ public class OutputStreamWriterTest {
 			bw.write("OutputStreamWriter 한글테스트");
 			bw.newLine();
 			bw.flush();
-			bw.write("OutputStreamWriter 한글테스트2");
+			bw.write("OutputStreamWriter 한글테스트3");
 			bw.newLine();
 			
 		} catch (Exception e) {
